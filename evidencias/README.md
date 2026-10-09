@@ -10,8 +10,8 @@ Cenários sem print próprio têm o resultado registrado em texto em `execucao/r
 
 - [Cupom](#cupom) (`cupom/`)
 - [Frete](#frete) (`frete/`)
-- [Cálculo e quantidade](#calculo-e-quantidade) (`calculo/`)
-- [Validação do cliente](#validacao-do-cliente) (`cliente/`)
+- [Cálculo e quantidade](#calculo) (`calculo/`)
+- [Validação do cliente](#cliente) (`cliente/`)
 - [API](#api) (`api/`)
 - [Automação](#automação) (`automacao/`)
 
@@ -25,7 +25,7 @@ Cupom BEMVINDO10 aplicado: subtotal R$ 239,70, desconto R$ 23,97, frete Grátis 
 
 ### CT-CUP-02 - Passou
 
-Desconto de 10% sobre o subtotal (Mochila: desconto R$ 10,00 e total R$ 109,90).
+Desconto de 10% sobre o subtotal (Camiseta Essencial: desconto R$ 5,99 e total R$ 73,81).
 
 ![CT-CUP-02](cupom/CT-CUP-02.png)
 
@@ -126,18 +126,6 @@ Subtotal de R$ 199,60: frete cobrado e faltante de R$ 0,40.
 Subtotal acima de R$ 200,00: frete Grátis.
 
 ![CT-FRE-05](frete/CT-FRE-05.png)
-
-### CT-FRE-06 - Passou
-
-Compra de menor valor possível (R$ 29,90): frete cobrado e total R$ 49,80.
-
-![CT-FRE-06](frete/CT-FRE-06.png)
-
-### CT-FRE-07 - Falhou ([BUG-01](../bugs/BUG-01.md))
-
-2 Mochilas com BEMVINDO10: frete R$ 19,90 e total R$ 199,90 (esperado: frete Grátis e total R$ 180,00).
-
-![CT-FRE-07](frete/CT-FRE-07.png)
 
 ### CT-FRE-07b - Passou
 
