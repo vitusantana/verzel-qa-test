@@ -37,4 +37,4 @@ CT-QTD-02 e CT-QTD-03 (passar de 5 unidades no carrinho): **passaram**. A interf
 ## Automação
 Reproduzido em `automacao/tests/api-quantidade.spec.ts` (CT-API-12), marcado com `test.fail()` até a correção.
 
-![Automação reproduzindo o bug](../evidencias/automacao/CT-API-12-bug.png)
+![Automação reproduzindo o bug](../evidencias/automacao/CT-API-12-BUG.png)
