@@ -24,8 +24,8 @@ Status 422 e `erro.codigo` igual a `QUANTIDADE_MAXIMA_EXCEDIDA`.
 | `/api/carrinho/calcular` | 100 | **200 OK**, subtotal 5990 |
 
 ![/api/pedidos com 6 unidades](../evidencias/api/CT-API-12.png)
-![/api/carrinho/calcular com 6 unidades](../evidencias/api/CT-API-12-calcular-qtd6.png)
-![/api/carrinho/calcular com 100 unidades](../evidencias/api/CT-API-12-calcular-qtd100.png)
+![/api/carrinho/calcular com 6 unidades](../evidencias/api/CT-API-12-CALCULAR-QTD6.png)
+![/api/carrinho/calcular com 100 unidades](../evidencias/api/CT-API-12-CALCULAR-QTD100.png)
 
 ## Delimitação
 - 5 unidades (o máximo) é aceito (CT-API-13), como esperado.
