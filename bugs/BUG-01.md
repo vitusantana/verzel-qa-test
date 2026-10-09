@@ -63,4 +63,4 @@ No limite exato, o CA08 não pode ser validado de ponta a ponta, porque o frete 
 ## Automação
 Reproduzido em `automacao/tests/frete.spec.ts` (CT-FRE-02), marcado com `test.fail()` até a correção.
 
-![Automação reproduzindo o bug](../evidencias/automacao/CT-FRE-02-bug.png)
+![Automação reproduzindo o bug](../evidencias/automacao/CT-FRE-02-BUG.png)
